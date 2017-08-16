@@ -1,0 +1,50 @@
+<style>
+
+	<body>
+	
+		{ background-image: url(wood3.jpg);}  
+
+	h1 {text-align: center;
+    font-size: 80px;
+    color:#ffffcc;
+    font-family: "Algerian";
+}
+
+	h2 {text-align: left;
+    color: #ffffcc;
+    font-size: 30px;
+    font-family: "Lucida Handwriting";
+}
+
+	p {text-align: left;
+    margin-right: 700px;
+    text-align: justify;
+    color: #ffffcc;
+    font-family: "Calibri"; 
+}
+
+	h3 {text-align: top-right;
+    color:  #ffffcc;
+    font-size: 30px;
+    font-family: "Lucida Handwriting"
+}
+
+	h4 {text-align: left;
+    color: #ffffcc;
+    font-family: "Lucida Handwriting";
+    font-size: 30px;
+}
+
+	.about me{
+  float:left;
+
+}
+
+	.projects{
+  position: relative;
+  float:right; 
+  
+}
+		
+	</body>
+</style>

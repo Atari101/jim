@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jim's Place</title>
+</head>
+
+<style type="text/css">
+	h1 {font-size: 50px;
+		font-family:monospace;
+		text-align: center; 
+	 
+	}
+
+	h2{ text-align: right;
+		
+	
+	}
+body
+	{ background-image: url(wood.jpg);  
+		
+
+</style>
+<body>
+ <h1 class=>Jim's Place</h1>
+
+ <h2 class=> About Me</h2>
+ <p>I have been doing carpentry for 15 years.</p>
+
+ <h3>My Projects</h3>
+
+ <h4>Testimonials</h4>
+
+ <div class="container">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="What would you like."style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+</body>
+</html>
