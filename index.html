@@ -1,63 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>JP</title>
-</head>
-<body>
-<link rel="stylesheet" type="text/css" href="jim/jim.css"/>
+  <head>
+    
+    <title>JP</title>
+  </head>
+    <style>
+    body {
+      background-color: #ff8c66;
+     }
 
+      h1{
+        text-align: center;
+        font-size: 80px;
+        color:#ffffcc;
+        font-family: "Algerian";
 
+      }
 
+      h2 {text-align: center;
+      color: #ffffcc;
+      font-size: 15px;
+      font-family: "Lucida Handwriting";
+}
 
-
-
-
-<h1 class=>Jim's Place</h1>
-
-  <div class="about me">
-    <h2 class=> About Me</h2>
-      <p>Welcome!  My name is Jim.  I’m from Wisconsin, the home of cheese, beer and the Green Bay Packers.  I’ve been doing carpentry for over ten years.  One of the things I most enjoy about carpentry is being able to take a vision in my head and bring it to life for others to enjoy.  I only use the finest pieces of wood for quality products.  Please check out some of my work below and read testimonials from my clients.  It would be my pleasure to custom design a product for you.  Send me a request by filling in the contact form and I’ll be sure to get in touch soon.  Thanks so much for stopping by!  </p>
-  </div>
-
- <div class="projects">
-  <h3>My Projects</h3>
-    <style="width:100;height:100px;">
-      <img style hspace "200"="float:right; display:right" src="chest.jpg"  width="100" height="100"  />
-
-      <img style hspace"200"="float:right; display: inline" src="chess.jpg"  width="100" height="100"  />
-
-      <img style hspace"200"="float:right; display: inline" src="Encenter.jpg" width="100" height="100"  />
-
-      <img style hspace"200"="float:right; display: inline" src="heart.jpg" width="100" height="100" />
-
-      <img style hspace"200"="float:right; display: inline" src="table.jpg" width="100" height="100" />
+      h3 {text-align: center;
+      color: #ffffcc;
+      font-size: 15px;
+      font-family: "Lucida Handwriting";
+}
+    img.chest {
+       border:1px solid #021a40;
+      -webkit-transform:rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
  
+}
+
+    img.Encenter{
+        border:1px solid #021a40;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    img.chest1{
+        border:1px solid #021a40;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    p{
+      color:#ffccf2;
+      font-family: "Cambria Math";
+    }
+
+    
+    
+    </style>
 
 
-  </div>
-
- <h4>Testimonials</h4>
 
 
-  <div class="container">
-    <form action="/action_page.php">
-      <ul>
-        <li>
-          <label for="Your name">Your Name</label>
-            <input type="text" id="Your Name" name="Your Name" >
-              </li>
+  <body>
+    <h1>Jim's Place</h1> 
+
+    
+      <h2> About Me</h2>
+        <p>Welcome!  My name is Jim.  I’m from Wisconsin, the home of cheese, beer and the Green Bay Packers.  I’ve been doing carpentry for over ten years.  One of the things I most enjoy about carpentry is being able to take a vision in my head and bring it to life for others to enjoy.  I only use the finest pieces of wood for quality products.  Please check out some of my work below and read testimonials from my clients.  It would be my pleasure to custom design a product for you.  Send me an e-mail by clicking the link at the bottom and I'll get in touch as soon as I can.  Thanks so much for stopping by!  </p>
+    </div> 
+
+
+      <h3>Testimonials</h3>
+        <div class="row">
+          <div class="col-xs-4">
+            <p>"Not only do I have a really cute jewelry box, but also a beautiful trunk.  The trunk is substantial where it can take the weight of two even three people sitting on it.  It's incredibly spacious and accommodates so many things.  It's also lined with cedar wood, which smells so good every time I open it!  Both pieces are so well made and I will be easily able to enjoy them for many years."-DJ</p>
+
+              <img class="chest" src="chest.jpg" height="300px;" width="300px;">
+
+            <div class="row">
+              <div class="col-xs-4">
+                <p>"Jim made my bookcase/tv stand. I've had it now 2 years and it is just as beautiful as ever! This piece of furniture is solid oak with walnut handles for the drawers. The drawers are spacious and slide out easily. The shelves are sturdy yet smooth. Wonderful piece!"-RB</p>
+
+                  <img class="Encenter" src="Encenter.jpg" height="300px;" width="300;">
+
+
+            <div class="row">
+              <div class="col-med-6">
+                <p>"Jim made me a wooden chest. It is very roomy and the design is very nice.  The legs on the chest is very detailed, good workmanship. I really enjoy it because I can keep many things in it."-OC</p>
+
+                <img class="chest1" src="chest1.jpg" height="300px;" width="300pc;">
+
+
+
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+                <a href="mailto:bondd006@yahoo.com?subject=Building Project" style="margin: 0 auto; display:block;text-align:center">
+Email Me</a>
+      
    
-        <li>
-          <label for="subject">What would you like.</label>
-            <textarea id="What would you like." name="subject" placeholder="What would you like."style="height:50px"></textarea>
-        </li>
-
-        <li>
-          <input type="submit" value="Submit">
-        </li>
-      </ul>
-    </form>
-  </div>
-
-</body>
+  </body>
 </html>
